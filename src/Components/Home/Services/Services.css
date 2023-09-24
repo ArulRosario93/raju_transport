@@ -1,0 +1,33 @@
+.Services{
+    /* height: 100vh; */
+    padding: 90px 90px;
+    background-color: rgb(244, 244, 244);
+}
+
+.ServicesInner{
+    height: 50vh;
+    width: 80%;
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.ServicesInnerback{
+    /* height: 10px;
+    width: 10px; */
+    color: rgb(0, 0, 0);
+}
+.ServicesInnerContain{
+    height:50px;
+    width: 50px;
+    background-color: rgb(0, 0, 0);
+}
+.ServicesInnerForward{
+    color: rgb(0, 0, 0);
+}
+.ServicesHead{
+    font-family: 'Poppins', sans-serif;
+}

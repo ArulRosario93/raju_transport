@@ -1,0 +1,36 @@
+.SlidingText{
+    color: rgb(255, 255, 255);
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 13%;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    animation: 2s ease-in-out 0s none alternate sun-rise;
+}
+
+.SlidingTextHeading{
+    font-size: xx-large;
+}
+
+.Bold{
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+}
+
+.SlidingTextPara{
+    font-size: 2.2rem;
+}
+
+@keyframes sun-rise{
+    from{
+        left: 0%;
+         opacity: 0;
+    }
+
+    to{
+        left: 13%;
+        opacity: 1;
+    }
+}

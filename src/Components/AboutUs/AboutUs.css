@@ -1,0 +1,67 @@
+.AboutUs{
+    height: 65vh;
+    margin: 71px 20px 41px 95px;
+    /* padding: 50px 0px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.AboutUsContent{
+    flex: 1.3;
+    margin-right: 40px;
+}
+
+.AboutUsContentPara{
+    margin-left: 40px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+}
+
+.AboutUsImage{
+    margin-top: 20px;
+    flex: 1;
+}
+
+.AboutUsImageMain{
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+.AboutUsContentHeading{
+    font-family: 'Poppins', sans-serif;
+}
+.AboutUsImageMainImg{
+    object-fit: cover;
+    width: 280px;
+    height: 280px;
+    border-radius: 160px;
+}
+
+.AboutUsImageMainPerosonalref{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 130px;
+    padding: 15px;
+    width: 130px;
+    border-radius: 90px;
+}
+
+.AboutUsImageMainPerosonalrefHeadaing{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+.AboutUsImageMainPerosonalrefPara{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+}

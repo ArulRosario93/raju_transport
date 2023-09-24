@@ -1,0 +1,8 @@
+.Home{
+    background-image: url("./HomeBG.png");
+    position: relative;
+    height: 100vh;
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

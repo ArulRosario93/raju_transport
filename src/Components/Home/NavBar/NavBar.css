@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+.NavBar{
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(48, 48, 48);
+    padding: 35px 50px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -15px 0px 83px 14px rgba(255, 255, 255, 0.444);
+}
+
+.NavBarLogo p{
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.NavBarTabs{
+    display: flex;
+    flex-direction: row;
+}
+
+.NavBarTabsLinks{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px 12px;
+    transition: text-decorationll .5s;
+    font-size: medium;
+    font-weight: 500;
+    /* text-decoration: none red; */
+}
+
+.NavBarTabsLinks:hover{
+    cursor: pointer;
+    /* text-decoration: underline red;
+    text-decoration-thickness: 2px; Adjust the thickness as needed */
+    /* text-decoration-style: double; */
+}

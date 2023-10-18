@@ -8,10 +8,10 @@
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
     padding: 35px 50px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: -15px 0px 83px 14px rgba(255, 255, 255, 0.444);
+    background-color: rgb(0, 0, 0);
+    /* box-shadow: -15px 0px 83px 14px rgba(255, 255, 255, 0.444); */
 }
 
 .NavBarLogo p{
@@ -23,6 +23,19 @@
 .NavBarTabs{
     display: flex;
     flex-direction: row;
+}
+
+.linkFound{
+
+    text-decoration: none;
+
+}
+
+.NavLink{
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
 }
 
 .NavBarTabsLinks{

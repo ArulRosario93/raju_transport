@@ -1,16 +1,17 @@
 import React from 'react';
 import "./ContactUs.css";
-import NavBar from '../Home/NavBar/NavBar';
+import NavForContactUs from './NavForContactUs/NavForContactUs';
 
 const ContactUs = () => {
     return (
         <div className='ContactUs'>
-            <NavBar />
+            <NavForContactUs />
             <div className='MainContainer'>
                 <div className='ContainItImg'>
                     <img className='ContainItImgImg' src='https://thumbs.dreamstime.com/b/american-style-truck-freeway-pulling-load-transportation-theme-road-cars-174771780.jpg' alt='ContainIt'/>
-                    <p>Hola there</p>
+                    <p>We would love to get in touch</p>
                 </div>
+                <div className="divider"></div>
                 <div className='ContainIt'>
                     <h1 className='ContactUsHead'>Talk with our team</h1>
                     <div className='ContactUsContainer'>
@@ -39,7 +40,7 @@ const ContactUs = () => {
                             <textarea className='ContactUsContaintextArea' rows={5} placeholder='Tell us about your team and provide some details about a project or process you would like to track in Raju Transport.'/>
                         </div>
                     </div>
-                    <div className='ContactUsSubmit'>Submit</div>
+                    <div className='ContactUsSubmit'>SUBMIT</div>
                 </div>
             </div>
         </div>

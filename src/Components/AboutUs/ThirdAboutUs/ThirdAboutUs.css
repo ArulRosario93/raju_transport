@@ -1,0 +1,37 @@
+
+.ThirdAboutUs{
+    background-color: rgb(255, 255, 255);
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.ThirdAboutUsEach{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    align-items: center;
+}
+
+.ThirdAboutUsEachImg{
+    border-radius: 40px;
+    border: 2px solid red;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.ThirdAboutUsEachHead{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.ThirdAboutUsEachP{
+    text-align: justify;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: small;
+    width: 290px;
+}

@@ -1,0 +1,12 @@
+.NavForContactUs{
+    color: black;
+    padding: 25px 50px;
+    width: 100%;
+    position: absolute;
+}
+.NavForContactUsP{
+    text-align: left;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,158 @@
+.AboutUsHome{
+    padding: 50px 20px 41px 95px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 0px -70px 50px 5px rgba(255, 255, 255, 0.655);
+}
+.AboutUsHomeContentShownRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+.AboutUsHomeContent{
+    margin-right: 40px;
+}
+.AboutUsHomeContentShown{
+    flex: 1.5;
+}
+.AboutUsHomeContentPara{
+    letter-spacing: 0.5px;
+    font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+}
+
+.AboutUsHomeImage{
+    flex: 1;
+}
+
+.AboutUsHomeImageMain{
+    width: 350px;
+    height: 350px;
+    position: relative;
+}
+.AboutUsHomeContentHeading{
+    font-family: 'Poppins', sans-serif;
+}
+.AboutUsHomeImageMainImg{
+    object-fit: cover;
+    width: 280px;
+    height: 280px;
+    border-radius: 160px;
+}
+
+.AboutUsHomeImageMainPerosonalref{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 130px;
+    padding: 15px;
+    width: 130px;
+    border-radius: 90px;
+}
+
+.AboutUsHomeImageMainPerosonalrefHeadaing{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+.AboutUsHomeImageMainPerosonalrefPara{
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+}
+
+
+@media only screen and (max-width: 1350px){
+
+    .AboutUsHomeContentPara{
+        font-size: small;
+    }
+    .AboutUsHomeImageMain{
+        width: 310px;
+        height: 310px;
+        position: relative;
+    }
+    .AboutUsHomeImageMainImg{
+        /* object-fit: cover; */
+        width: 240px;
+        height: 240px;
+        /* border-radius: 160px; */
+    }
+    .AboutUsHomeImageMainPerosonalref{
+        position: absolute;
+        background-color: rgb(255, 0, 0);
+        bottom: 30px;
+        right: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 130px;
+        padding: 15px;
+        width: 130px;
+        border-radius: 90px;
+    }
+    
+
+}
+
+@media only screen and (max-width: 1000px){
+
+    .AboutUsHomeContentPara{
+        font-size: small;
+        margin-left: 0px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 950px){
+
+    .AboutUsHomeContentShownRow{
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .AboutUsHomeImageMain{
+        width: 280px;
+        height: 280px;
+        position: relative;
+    }
+    .AboutUsHomeImageMainPerosonalref{
+        height: 120px;
+        width: 120px;
+    }
+    .AboutUsHomeImageMainImg{
+        width: 210px;
+        height: 210px;
+    }
+    .AboutUsHomeImage{
+        margin: auto;
+    }
+    .AboutUsHomeContentPara{
+        width: 100%;
+        text-align: justify;
+    }
+    .AboutUsHomeContentHeading{
+        font-size: larger;
+    }
+    .AboutUsHomeContent{
+        margin: auto;
+        font-weight: 600;
+        font-size: larger;
+    }
+    .AboutUsHome{
+        text-align: center;
+        padding: 60px 20px;
+    }
+}

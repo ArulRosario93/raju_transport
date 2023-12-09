@@ -1,0 +1,25 @@
+.FourthAboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.FourthAboutUsHead{
+    font-size: 2.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.FourthAboutUsPara{
+    width: 70%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+}
+
+.FourthAboutUsName{
+    font-family: "poppins", sans-serif;
+    color: red;
+    font-weight: 600;
+}

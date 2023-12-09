@@ -24,7 +24,7 @@ const Home = () => {
             <AboutUs />
             <SpecialComp />
             <Services />
-            <Footer />
+            <Footer sub={true}/>
         </div>
     )
 }

@@ -16,6 +16,7 @@
 
 .nav{
     position: relative;
+    z-index: 1;
 }
 .MobileNav{
     display: none;
@@ -76,7 +77,7 @@
 
 @media only screen and (max-width: 450px){
     .MobileNav{
-        width: 100%;
+        width: -webkit-fill-available;
         position:absolute;
         display: flex;
         flex-direction: row;

@@ -1,15 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 .footer{
     padding: 70px 70px;
     display: flex;
     background: black;
     color: white;
     flex-direction: row;
+    /* box-shadow: 0px -50px 500px 50px rgb(29, 29, 29); */
     align-items: center;
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
 }
 .footertabs{
     text-align: center;
+}
+.quote{
+    /* background-color: rgba(0, 0, 0, 0.953); */
+    text-align: center;
+    padding: 0px 0px 50px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: xx-large;
+    color: rgb(255, 0, 0);
 }
 .footertabsh2{
     font-size: xx-large;

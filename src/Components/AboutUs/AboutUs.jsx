@@ -5,6 +5,7 @@ import NavBar from '../Home/NavBar/NavBar';
 import SecondAboutUs from './SecondAboutUs/SecondAboutUs';
 import ThirdAboutUs from './ThirdAboutUs/ThirdAboutUs';
 import FourthAboutUs from './FourthAboutUs/FourthAboutUs';
+import Footer from '../Footer/Footer';
 
 const AboutUs = () => {
     return(
@@ -14,6 +15,7 @@ const AboutUs = () => {
             <ThirdAboutUs />
             <SecondAboutUs />
             <FourthAboutUs />
+            <Footer />
         </div>
     )
 };

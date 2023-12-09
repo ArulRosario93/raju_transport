@@ -121,6 +121,7 @@
     }
     .ServicesFoundHead{
         font-size: x-large;
+        font-weight: 500;
     }
     .ServicesFoundView{
         font-size: x-small;

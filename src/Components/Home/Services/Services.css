@@ -82,14 +82,14 @@
 }
 
 .ServicesFoundImg{
-    width: 400px;
+    width: 100%;
     flex: 1;
     height: 200px;
     object-fit: cover;
 }
 
 .ServicesFoundImgImg{
-    width: 400px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
@@ -101,6 +101,7 @@
 }
 
 .ServicesFoundHead{
+    font-weight: 500;
     padding: 10px 0px;
 }
 

@@ -10,7 +10,7 @@
     color: rgb(255, 255, 255);
     padding: 35px 50px;
     height: 120px;
-    background-color: rgba(0, 0, 0, 0.234);
+    background-color: rgba(0, 0, 0, 0.647);
     /* box-shadow: -15px 0px 83px 14px rgba(255, 255, 255, 0.444); */
 }
 
@@ -43,7 +43,7 @@
 }
 
 .NavLink{
-
+    cursor: pointer;
     text-decoration: none;
     color: rgb(255, 255, 255);
 
@@ -90,7 +90,9 @@
     .NavLinkMobileBar{
         color: white;
         transform: rotate(90deg);
-        font-size: large;
+        cursor: pointer;
+        /* width: 20px; */
+        font-size: medium;
     }
 
     .NavBar{
@@ -107,9 +109,11 @@
         text-align: right;
         font-size: x-large;
         padding: 25px;
+        cursor: pointer;
         font-family: "Poppins", sans-serif;
         color: black;
     }
+    
     .HeadHeadForMobilebar{
         font-size: x-large;
         text-align: center;
@@ -117,9 +121,8 @@
     }
     .navBarForMobile{
         z-index: 100;
-        transition: all .5s;
         display: block;
-        transition: 'all .5s';
+        transition: all .5;
         position: fixed;
         width: 100%;
         background: white;

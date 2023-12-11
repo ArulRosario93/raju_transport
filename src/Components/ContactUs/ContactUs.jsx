@@ -1,11 +1,12 @@
 import React from 'react';
 import "./ContactUs.css";
-import NavForContactUs from './NavForContactUs/NavForContactUs';
+import Footer from '../Footer/Footer';
+import NavBar from '../Home/NavBar/NavBar';
 
 const ContactUs = () => {
     return (
         <div className='ContactUs'>
-            <NavForContactUs />
+            <NavBar />
             <div className='MainContainer'>
                 <div className='ContainItImg'>
                     <img className='ContainItImgImg' src='https://thumbs.dreamstime.com/b/american-style-truck-freeway-pulling-load-transportation-theme-road-cars-174771780.jpg' alt='ContainIt'/>
@@ -43,6 +44,7 @@ const ContactUs = () => {
                     <div className='ContactUsSubmit'>SUBMIT</div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

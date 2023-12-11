@@ -1,5 +1,5 @@
 .AboutUsHome{
-    padding: 50px 20px 41px 95px;
+    padding: 90px 20px 41px 95px;
     width: 100%;
     display: flex;
     position: relative;
@@ -7,13 +7,15 @@
     align-items: flex-start;
     box-shadow: 0px -70px 50px 5px rgba(255, 255, 255, 0.655);
 }
+
 .AboutUsHomeContentShownRow{
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
+
 .AboutUsHomeContent{
     margin-right: 40px;
 }
@@ -36,6 +38,9 @@
     position: relative;
 }
 .AboutUsHomeContentHeading{
+    font-size: 2rem;
+    font-weight: 600;
+    height: 20px;
     font-family: 'Poppins', sans-serif;
 }
 .AboutUsHomeImageMainImg{
@@ -153,6 +158,6 @@
     }
     .AboutUsHome{
         text-align: center;
-        padding: 60px 20px;
+        padding: 100px 20px;
     }
 }

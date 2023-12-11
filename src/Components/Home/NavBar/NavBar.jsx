@@ -13,7 +13,7 @@ const NavBar = () => {
     return(
         <div className="nav">
             <div className="MobileNav">
-                <p className="NavLinkMobile">Raju Transports</p>
+            <Link className="linkFound" to={"/"}><p className="NavLinkMobile">Raju Transports</p></Link>
                 <p className="NavLinkMobileBar" onClick={() => handleNavBarClick()} style={{display: navBar? 'none': 'block'}}>|||</p>
             </div>
 
@@ -38,7 +38,7 @@ const NavBar = () => {
 
         <div className="NavBar">
             <div className="NavBarLogo">
-                <p className="NavLink">Raju Transports</p>
+                <Link className="linkFound" to={"/"}><p className="NavLink">Raju Transports</p></Link>
             </div>
             <div className="NavBarTabs">
                 <div className="NavBarTabsLinks">

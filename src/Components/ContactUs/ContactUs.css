@@ -113,3 +113,43 @@
     cursor: pointer;
 
 }
+
+
+@media only screen and (max-width: 980px){
+    .ContainItImg{
+        display: none;
+    }
+    .MainContainer{
+        height: max-content;
+        padding: 80px 30px 20px 30px;
+    }
+    .divider{
+        display: none;
+    }
+    .ContactUsHead{
+        font-weight: 600;
+        font-size: x-large;
+        text-align: center;
+    }
+    .ContainIt{
+        /* height: max-content; */
+        justify-content: space-between;
+    }
+    .ContactUsContainer{
+        justify-content: center;
+        padding: 0%;
+        flex-direction: column;
+    }
+    .ContactUsContain{
+        /* background-color: aqua; */
+        margin: 10px 0px;
+        width: 100%;
+    }
+    .ContactUsContaininp{
+        padding: 15px 15px; 
+    }
+    .ContactUsContaintextArea{
+        padding: 15px 15px; 
+        font-size: medium;
+    }
+}

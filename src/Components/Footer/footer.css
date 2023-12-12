@@ -11,9 +11,11 @@
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
 }
+
 .footertabs{
     text-align: center;
-}
+} 
+
 .quote{
     /* background-color: rgba(0, 0, 0, 0.953); */
     text-align: center;

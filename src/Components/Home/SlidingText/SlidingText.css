@@ -5,7 +5,7 @@
     top: 50%;
     left: 13%;
     font-style: italic;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     animation: 2s ease-in-out 0s none alternate sun-rise;
 }
 
@@ -16,13 +16,25 @@
 .Bold{
     font-weight: 600;
     letter-spacing: 1px;
-    font-size: 2.2rem;
+    transition: .4s;
+    font-size: 3rem;
 }
 
-.SlidingTextPara{
-    font-size: 2.2rem;
+.SlidingTextPara1{
+    transition: .4s;
+    font-size: 3rem;
+}
+.SlidingTextPara2{
+    transition: .4s;
+    font-size: 3rem;
 }
 
+.SlidingTextPara1:hover .Bold{
+    font-size: 3.4rem;
+}
+.SlidingTextPara2:hover{
+    font-size: 3.4rem;
+}
 @keyframes sun-rise{
     from{
         left: 0%;
@@ -37,22 +49,29 @@
 @media only screen and (max-width: 1000px){
 
     .SlidingText{
-        font-size: 1rem;
         left: 13%;
     }
 
-    .SlidingTextHeading{
-        font-size: medium;
-    }
 
     .Bold{
-        font-size: 1.5rem;
+         font-size: 2rem;
     }
 
-    .SlidingTextPara{
-        font-size: 1.5rem;
+    .SlidingTextPara1{
+        font-size: 2rem;
     }
-
+    .SlidingTextPara2{
+        font-size: 2rem;
+    }
+    .SlidingTextPara1:hover .Bold{
+        font-size: 2rem;
+    }
+    /* .SlidingTextPara1:hover{
+        font-size: 2rem;
+    } */
+    .SlidingTextPara2:hover{
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -78,10 +97,22 @@
     }
 
     .Bold{
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }
 
-    .SlidingTextPara{
-        font-size: 1rem;
+    .SlidingTextPara1{
+        font-size: 1.6rem;
+    }
+    .SlidingTextPara2{
+        font-size: 1.6rem;
+    }
+    .SlidingTextPara1:hover .Bold{
+        font-size: 2rem;
+    }
+    .SlidingTextPara1:hover{
+        font-size: 1.8rem;
+    }
+    .SlidingTextPara2:hover{
+        font-size: 1.8rem;
     }
 }

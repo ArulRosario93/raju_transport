@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./footer.css";
 import { GoogleMap, Marker } from 'react-google-maps';
+import { Link } from "react-router-dom";
 
 const Footer = ({ sub }) => {
 

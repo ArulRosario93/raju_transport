@@ -1,0 +1,41 @@
+.ServicesHome{
+    position: relative;
+    height: 100vh;
+}
+
+.ServicesHomeContainer{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    /* border-radius: 5px;
+    margin: 30px auto; */
+}
+
+.ServicesHomeContainerImg{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.ServicesHomeContent{
+    position: absolute;
+    /* height: 100vh; */
+    top: 50%;
+    right: 65%;
+}
+
+.ServicesHomeHEAD{
+    font-weight: 600;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 6rem;
+}
+
+@media only screen and (max-width: 1200px){
+    .ServicesHomeContent{
+        left: 10%;
+    }
+    .ServicesHomeHEAD{
+        font-size: 4rem;
+    }
+}

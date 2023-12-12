@@ -1,0 +1,117 @@
+.ServicesSecond{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+    height: 100vh;
+}
+
+.ServicesSecondImg{
+    flex: 1;
+    background-color: transparent;
+}
+
+.ServicesSecondImgImg{
+    width: 100%;
+    mix-blend-mode: multiply;
+    padding: 150px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ServicesSecondContent{
+    flex: 1;
+}
+
+
+.ServicesSecondContentHead{
+    font-size: 3.5rem;
+    font-family: 'Bebas Neue', sans-serif;    
+    font-weight: 900;
+    height: 60px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.ServicesSecondContentPara1{
+    font-size: larger;
+    padding: 15px 10px;
+    color: rgb(0, 132, 255);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.ServicesSecondContentPara2{
+    /* font-size: larger; */
+    padding: 15px 10px;
+    color: rgb(49, 49, 49);
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1150px){
+    .ServicesSecondImgImg{
+        padding: 80px;
+    }
+}
+@media only screen and (max-width: 900px){
+    
+    .ServicesSecondImgImg{
+        padding: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 630px){
+
+        .ServicesSecond{
+            min-height: 80vh;
+        }
+        .ServicesSecondContentHead{
+            height: auto;
+            font-size: 2rem;
+        }
+        .ServicesSecondContent{
+            padding: 0px 10px;
+        }
+        .ServicesSecondImgImg{
+            padding: 0px 10px;
+        }
+        .ServicesSecondContentPara1{
+            font-size: small;
+            text-align: justify;
+        }
+        .ServicesSecondContentPara2{
+            text-align: justify;
+            font-size: small;
+        }
+}
+
+
+@media only screen and (max-width: 450px){
+
+        .ServicesSecond{
+            height: 100vh;
+        }
+        .ServicesSecondContentHead{
+            height: auto;
+            font-size: 2rem;
+        }
+        .ServicesSecondContent{
+            padding: 0px 0px;
+        }
+        .ServicesSecondImgImg{
+            padding: 0px 0px 0px 5px;
+            height: 60vh;
+            object-fit: cover;
+        }
+        .ServicesSecondContentPara1{
+            font-size: small;
+            text-align: left;
+        }
+        .ServicesSecondContentPara2{
+            text-align: left;
+            font-size: medium;
+        }
+}
+

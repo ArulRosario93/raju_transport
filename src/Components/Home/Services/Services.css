@@ -1,4 +1,4 @@
-.Services{
+.services{
     /* height: 100vh; */
     padding: 90px 90px;
     background-color: rgb(255, 255, 255);
@@ -16,11 +16,25 @@
     justify-content: center;
 }
 
-.ServicesFoundHead{
+.services:hover .ServicesHead{
+    /* font-family: 'Bebas Neue', sans-serif; */
+    font-size: 0rem;
+    /* display: none; */
+}
 
-    font-family: poppins, sans-seri;
-    font-weight: 600;
-    font-size: 1.8rem;
+.ServicesFoundHead{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    transition: .4s;
+    font-size: 2rem;
+    text-align: left;
+
+}
+.ServicesFoundHeadR{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
 }
 
 .ServicesFoundPara{
@@ -43,23 +57,28 @@
 }
 
 .ServicesFoundView:hover{
-    /* background-color: rgb(255, 0, 0); */
+    background-color: rgb(0, 136, 255)  ;
     color: rgb(238, 238, 238);
 }
 
 .ServicesInnerContainer{
     display: flex;
-    background-color: rgb(243, 243, 243);
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0px 0px 10px 1px rgb(174, 120, 120);
+    /* border: 1px solid black; */
     color: rgb(0, 0, 0);
     padding: 45px 65px;
+    transition: .4s;
     flex-direction: column;
 }
 
 .ServicesInnerContainerRight{
     display: flex;
-    background-color: rgb(243, 243, 243);
+    /* box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); */
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     padding: 45px 65px;
+    transition: .4s;
     flex-direction: column;
 }
 .ServicesInMobileRight{
@@ -96,10 +115,24 @@
 }
 
 .ServicesHead{
-    font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
+    transition: .3s;
+    width: max-content;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3rem;
 }
 
+/* .ServicesInnerContainer:hover .ServicesFoundHead{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    cursor: pointer;
+    
+} */
+
+/* .ServicesInnerContainerRight:hover .ServicesFoundHeadR{
+    font-size: 2.5rem; 
+    cursor: pointer;
+} */
 .ServicesFoundHead{
     font-weight: 500;
     padding: 10px 0px;
@@ -165,7 +198,7 @@
         align-items: center;
         justify-content: center;
     }
-    .Services{
+    .services{
         text-align: center;
         padding: 60px 30px;
     }
@@ -178,5 +211,14 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }.services:hover .ServicesHead{
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.5rem;
+    }
+    .ServicesHead{
+        text-align: center;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 2.5rem;
     }
 }

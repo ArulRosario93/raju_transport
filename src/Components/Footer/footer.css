@@ -3,7 +3,7 @@
 .footer{
     padding: 70px 70px;
     display: flex;
-    background: black;
+    background: rgb(0, 0, 0);
     color: white;
     flex-direction: row;
     /* box-shadow: 0px -50px 500px 50px rgb(29, 29, 29); */
@@ -17,13 +17,25 @@
 .quote{
     /* background-color: rgba(0, 0, 0, 0.953); */
     text-align: center;
+    transition: .4s;
+    margin: auto;
+    width: max-content;
     padding: 0px 0px 50px;
     font-family: 'Shadows Into Light', cursive;
-    font-size: xx-large;
-    color: rgb(255, 0, 0);
+    /* font-size: xx-large; */
+    color: rgb(0, 136, 255);
+    font-size: 2rem;
 }
+
+.quote:hover{
+    cursor:none;
+    font-size: 2.2rem;
+}
+
 .footertabsh2{
-    font-size: xx-large;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Bebas Neue', sans-serif;
     margin: 10px 0px;
     font-weight: 600;
 }

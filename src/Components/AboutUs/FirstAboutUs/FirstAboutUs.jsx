@@ -1,11 +1,12 @@
 import React from "react";
 import "./FirstAboutUs.css";
 import { Link } from "react-router-dom";
+import image from "../imaage.jpg";
 
 const FirstAboutUs = () => {
     return(
         <div className="FirstAboutUs">
-            <img className="FirstAboutUsImg" src="https://wallpapers.com/images/featured/truck-u9o1jh3qd57zz838.jpg" alt="About-Us-1" border="0" />
+            <img className="FirstAboutUsImg" src={image} alt="About-Us-1" border="0" />
             <div className="FirstAboutUsContent">
                 <div className="FirstAboutUsContentIn">
                     <h2 className="FirstAboutUsContentInHead">We Keep Your</h2>

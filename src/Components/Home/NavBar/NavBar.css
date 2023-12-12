@@ -2,16 +2,16 @@
 
 .NavBar{
     width: 100%;
-    position: absolute;
+    position: fixed ;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     padding: 35px 50px;
-    height: 120px;
-    background-color: rgba(0, 0, 0, 0.647);
-    /* box-shadow: -15px 0px 83px 14px rgba(255, 255, 255, 0.444); */
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    /* box-shadow: 0px 0px 83px 14px rgba(0, 0, 0, 0.444); */
 }
 
 .nav{
@@ -21,8 +21,11 @@
 .MobileNav{
     display: none;
 }
+
 .NavBarLogo p{
-    font-size: x-large;
+    transition: .3s ease-in-out .8s;
+    
+    /* font-size: 1.4rem; */
     font-weight: 600;
     /* line-height: 120px; */
     /* background-color: aqua; */
@@ -30,9 +33,18 @@
     left: 0%;
     padding: 0px 50px; */
     /* position: fixed; */
-    font-family: 'Poppins', sans-serif;
+    /* letter-spacing: 1.5px; */
+    font-family: 'Bebas Neue', sans-serif;
 }
 
+.NavBarLogoforService{
+    transition: all .5s ease-in-out;
+    font-family: 'Bebas Neue', sans-serif;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 3.5rem;
+    text-align: center;
+}
 .NavBarTabs{
     display: flex;
     flex-direction: row;
@@ -45,7 +57,7 @@
 .NavLink{
     cursor: pointer;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 
 }
 
@@ -55,6 +67,7 @@
     transition: text-decorationll .5s;
     font-size: medium;
     font-weight: 500;
+    transition: all .4s;
     /* text-decoration: none red; */
 }
 
@@ -68,7 +81,7 @@
 @media only screen and (max-width: 1000px){
     .NavBarLogo p{
         font-size: larger;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
     }
     .NavBarTabs{
         display: none;
@@ -84,11 +97,11 @@
         align-items: center;
         padding: 25px 30px;
         justify-content: space-between;
-        background-color: rgba(0, 0, 0, 0.308);
+        background-color: rgb(255, 255, 255);
     }
 
     .NavLinkMobileBar{
-        color: white;
+        color: rgb(0, 0, 0);
         transform: rotate(90deg);
         cursor: pointer;
         /* width: 20px; */
@@ -100,9 +113,9 @@
     }
 
     .NavLinkMobile{
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: large;
-        font-family: "Poppins", sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
         text-align: center;
     }
     .MobileCloseBar{
@@ -117,7 +130,7 @@
     .HeadHeadForMobilebar{
         font-size: x-large;
         text-align: center;
-        font-family: "Poppins", sans-serif;
+        font-family: 'Bebas Neue', sans-serif;
     }
     .navBarForMobile{
         z-index: 100;

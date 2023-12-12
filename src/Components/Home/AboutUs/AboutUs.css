@@ -8,6 +8,19 @@
     box-shadow: 0px -70px 50px 5px rgba(255, 255, 255, 0.655);
 }
 
+/* .AboutUsHome:hover .AboutUsHomeImageMain{
+    width: 380px;
+    height: 380px;
+    position: relative;
+} */
+
+.AboutUsHome:hover .AboutUsHomeImageMainImg{
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 160px;
+}
+
 .AboutUsHomeContentShownRow{
     display: flex;
     flex-direction: row;
@@ -19,9 +32,11 @@
 .AboutUsHomeContent{
     margin-right: 40px;
 }
+
 .AboutUsHomeContentShown{
     flex: 1.5;
 }
+
 .AboutUsHomeContentPara{
     letter-spacing: 0.5px;
     font-weight: 300;
@@ -37,14 +52,17 @@
     height: 350px;
     position: relative;
 }
+
 .AboutUsHomeContentHeading{
-    font-size: 2rem;
+    font-size: 2.7rem;
     font-weight: 600;
     height: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
 }
+
 .AboutUsHomeImageMainImg{
     object-fit: cover;
+    transition: .4s;
     width: 280px;
     height: 280px;
     border-radius: 160px;
@@ -71,6 +89,7 @@
     font-size: medium;
     font-weight: 500;
 }
+
 .AboutUsHomeImageMainPerosonalrefPara{
     color: aliceblue;
     font-family: 'Poppins', sans-serif;
@@ -83,17 +102,20 @@
     .AboutUsHomeContentPara{
         font-size: small;
     }
+
     .AboutUsHomeImageMain{
         width: 310px;
         height: 310px;
         position: relative;
     }
+
     .AboutUsHomeImageMainImg{
         /* object-fit: cover; */
         width: 240px;
         height: 240px;
         /* border-radius: 160px; */
     }
+
     .AboutUsHomeImageMainPerosonalref{
         position: absolute;
         background-color: rgb(255, 0, 0);
@@ -108,8 +130,6 @@
         width: 130px;
         border-radius: 90px;
     }
-    
-
 }
 
 @media only screen and (max-width: 1000px){
@@ -141,6 +161,18 @@
         width: 210px;
         height: 210px;
     }
+    .AboutUsHome:hover .AboutUsHomeImageMainImg{
+        object-fit: cover;
+        width: 210px;
+        height: 210px;
+        border-radius: 160px;
+    }
+
+    .AboutUsHomeImageMain:hover .AboutUsHomeImageMainImg{
+        width: 240px;
+        height: 240px;
+    }
+    
     .AboutUsHomeImage{
         margin: auto;
     }
@@ -149,6 +181,7 @@
         text-align: justify;
     }
     .AboutUsHomeContentHeading{
+        font-weight: 500;
         font-size: larger;
     }
     .AboutUsHomeContent{

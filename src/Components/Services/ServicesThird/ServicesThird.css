@@ -1,0 +1,101 @@
+.ServicesThird{
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ServicesThirdContent{
+    flex: 1;
+    padding: 50px;
+}
+
+.ServicesThirdImg{
+    flex: 1;
+}
+
+.ServicesThirdImgImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 120px;
+}
+
+.ServicesThirdContentNote{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: medium;
+    color: rgb(0, 132, 255);
+}
+
+.ServicesThirdContentHead{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    height: 60px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.ServicesThirdContentP1{
+    font-family: 'Poppins', sans-serif;
+    /* font-size: larger; */
+    font-weight: 500;
+    padding: 20px 0px;
+    color: rgb(45, 45, 45);
+}
+@media only screen and (max-width: 1150px){
+    .ServicesThirdImgImg{
+        padding: 80px;
+    }
+}
+@media only screen and (max-width: 900px){
+    
+    .ServicesThirdImgImg{
+        padding: 50px;
+    }
+    
+}
+@media only screen and (max-width: 900px){
+    .ServicesThirdContent{
+        padding: 30px;
+    }
+    .ServicesThirdImgImg{
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .ServicesThirdContent{
+        padding: 30px;
+    }
+    .ServicesThirdImgImg{
+        padding: 30px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+
+    .ServicesThird{
+        min-height: 100vh;
+    }
+    .ServicesSecondContentHead{
+        height: auto;
+        font-size: 2rem;
+    }
+    .ServicesThirdContent{
+        padding: 0px 10px;
+    }
+    .ServicesThirdImgImg{
+        padding: 0px 10px 0px 0px;
+        height: 40vh;
+        object-fit: cover;
+    }
+    .ServicesSecondContentPara1{
+        font-size: small;
+        text-align: left;
+    }
+    .ServicesSecondContentPara2{
+        text-align: left;
+        font-size: medium;
+    }
+}

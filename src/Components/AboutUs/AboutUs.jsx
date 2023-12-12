@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './AboutUs.css';
 import FirstAboutUs from './FirstAboutUs/FirstAboutUs';
 import NavBar from '../Home/NavBar/NavBar';
@@ -8,6 +8,11 @@ import FourthAboutUs from './FourthAboutUs/FourthAboutUs';
 import Footer from '../Footer/Footer';
 
 const AboutUs = () => {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)        
+    }, []);
+
     return(
         <div className='AboutUs'>
             <NavBar />

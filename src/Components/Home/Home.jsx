@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import NavBar from "./NavBar/NavBar";
 import SlidingText from "./SlidingText/SlidingText";
 import "./Home.css";
@@ -9,6 +9,9 @@ import Footer from "../Footer/Footer";
 
 const Home = () => {
 
+    const [came, setcame] = useState(false);
+
+
     useEffect(() => {
         window.scrollTo(0, 0)        
     }, []);
@@ -16,14 +19,14 @@ const Home = () => {
     return(
         <div className="RajuTransport">
             <div className="Home">
-                <NavBar />
+                <NavBar came={came}/>
                 <div className="insideHome">
                     <SlidingText />
                 </div>
             </div>
             <AboutUs />
             <SpecialComp />
-            <Services />
+            <Services setcame={setcame}/>
             <Footer sub={true}/>
         </div>
     )

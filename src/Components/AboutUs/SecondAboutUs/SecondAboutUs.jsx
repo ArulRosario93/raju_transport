@@ -1,5 +1,6 @@
 import React from "react";
 import "./SecondAboutUs.css";
+import map from "./map.png";
 
 const SecondAboutUs = () => {
     return(
@@ -12,7 +13,7 @@ const SecondAboutUs = () => {
                     <p className="SecondAboutUsFlexContentPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque quos quaerat facilis amet iusto eos numquam magni dicta dolorum ullam perspiciatis voluptates dignissimos cumque atque illo vitae, deserunt libero nulla nisi similique? Alias, iusto neque eum sit labore quas!</p>
                 </div>
                 <div className="SecondAboutUsFlexMap">
-                    <img className="SecondAboutUsFlexMapImg" src="https://www.leprosymission.in/wp-content/themes/leprosymission/assets/img/map.png"/>
+                    <img className="SecondAboutUsFlexMapImg" alt="mapOfIndia" src={map}/>
                 </div>
             </div>
         </div>

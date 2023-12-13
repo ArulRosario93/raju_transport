@@ -88,10 +88,10 @@
     }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
     .MobileNav{
         width: -webkit-fill-available;
-        position:absolute;
+        position: fixed;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -100,28 +100,36 @@
         background-color: rgb(255, 255, 255);
     }
 
+    .NavBar{
+        display: none;
+    }
+
     .NavLinkMobileBar{
         color: rgb(0, 0, 0);
         transform: rotate(90deg);
         cursor: pointer;
-        /* width: 20px; */
+        letter-spacing: -2.5px;
         font-size: medium;
     }
-
+    .ptransition{
+        transition: all .5s;
+    }
     .NavBar{
         display: none;
     }
 
     .NavLinkMobile{
         color: rgb(0, 0, 0);
-        font-size: large;
+        font-size: 1.5rem;
+        font-weight: 600;
+        letter-spacing: 1px;
         font-family: 'Bebas Neue', sans-serif;
         text-align: center;
     }
     .MobileCloseBar{
         text-align: right;
         font-size: x-large;
-        padding: 25px;
+        padding: 25px 35px;
         cursor: pointer;
         font-family: "Poppins", sans-serif;
         color: black;
@@ -135,7 +143,7 @@
     .navBarForMobile{
         z-index: 100;
         display: block;
-        transition: all .5;
+        transition: all 1s;
         position: fixed;
         width: 100%;
         background: white;

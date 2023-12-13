@@ -168,6 +168,7 @@
 
 @media only screen and (max-width: 920px){
     .ServicesInner{
+        margin: 0px 0px;
         flex-direction: column;
     }
     .ServicesInnerContainerRight{
@@ -215,6 +216,16 @@
         text-align: center;
         font-family: 'Bebas Neue', sans-serif;
         font-size: 2.5rem;
+    }
+    .ServicesFoundPara{
+        width: 100%;
+        padding: 0;
+    }
+    .ServicesFound{
+        padding: 10px 10px;
+    }
+    .ServicesFoundRight{
+        padding: 10px 10px;
     }
     .ServicesHead{
         text-align: center;

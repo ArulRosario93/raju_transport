@@ -22,9 +22,11 @@
 
 .SlidingTextPara1{
     transition: .4s;
+    cursor:context-menu;
     font-size: 3rem;
 }
 .SlidingTextPara2{
+    cursor:context-menu;
     transition: .4s;
     font-size: 3rem;
 }

@@ -9,9 +9,10 @@ const NavBar = ({ fixed, color, came }) => {
     const [scrolled, setScrolled] = useState(false);
 
     window.addEventListener('scroll', () => {
-        if(window.scrollY > 0) {
-            setScrolled(true);
-            // console.log(window.scrollY)
+        if(window.scrollY > 100) {
+            if(window.innerWidth > 500) {
+                setScrolled(true);
+            }
         } else {
             setScrolled(false);
         }
@@ -53,18 +54,18 @@ const NavBar = ({ fixed, color, came }) => {
                         <p >SERVICES PROVIDED</p>
                     </div>: <>
                         <div className="NavBarLogo">
-                            <Link className="linkFound" to={"/"}><p className="NavLink" style={{fontSize: scrolled? '1.4rem': '2.4rem', letterSpacing: scrolled? '0.5px': '1px'}}>Raju Transports</p></Link>
+                            <Link className="linkFound" to={"/"}><p className="NavLink ptransition" style={{fontSize: scrolled? came? '0rem': '1.4rem': '2.4rem', letterSpacing: scrolled? '0.5px': '1px'}}>Raju Transports</p></Link>
                         </div>
 
                         <div className="NavBarTabs">
                             <div className="NavBarTabsLinks">
-                                <Link className="linkFound" to={"/services"}><p className="NavLink">Services</p></Link>
+                                <Link className="linkFound" to={"/services"}><p className="NavLink ptransition" style={{fontSize: came? '0rem': '1rem'}}>Services</p></Link>
                             </div>
                             <div className="NavBarTabsLinks">
-                                <Link className="linkFound" to={"/aboutus"}><p className="NavLink">About Us</p></Link>
+                                <Link className="linkFound" to={"/aboutus"}><p className="NavLink ptransition" style={{fontSize: came? '0rem': '1rem'}}>About Us</p></Link>
                             </div>
                             <div className="NavBarTabsLinks">
-                                <Link className="linkFound" to={"/contactus"}><p className="NavLink">Contact Us</p></Link>
+                                <Link className="linkFound" to={"/contactus"}><p className="NavLink ptransition" style={{fontSize: came? '0rem': '1rem'}}>Contact Us</p></Link>
                             </div>
                         </div>
                     </>

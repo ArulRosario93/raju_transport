@@ -25,7 +25,8 @@
     padding: 0px 0px 50px;
     font-family: 'Shadows Into Light', cursive;
     /* font-size: xx-large; */
-    color: rgb(0, 136, 255);
+    /* color: rgb(0, 136, 255); */
+    color: rgb(255, 0, 0);
     font-size: 2rem;
 }
 

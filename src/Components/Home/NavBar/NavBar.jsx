@@ -31,7 +31,7 @@ const NavBar = ({ fixed, color, came }) => {
 
             <div className="navBarForMobile" style={{visibility: navBar? 'visible': 'hidden', height: navBar? '100vh': '0vh',}}>
                 <p className="MobileCloseBar" style={{visibility: navBar? 'visible': 'hidden', fontSize: navBar? 'large': '0px',}} onClick={() => handleNavBarClick()}>X</p>
-                <h2 className="HeadHeadForMobilebar" style={{visibility: navBar? 'visible': 'hidden', fontSize: navBar? 'x-large': '0px',}}>Raju Transports</h2>
+                <Link className="linkFound" to={"/"}><h2 className="HeadHeadForMobilebar" style={{visibility: navBar? 'visible': 'hidden', fontSize: navBar? 'x-large': '0px',}}>Raju Transports</h2></Link>
                 <br />
                 <br />
                 <br />

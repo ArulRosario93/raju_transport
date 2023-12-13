@@ -29,21 +29,21 @@ const NavBar = ({ fixed, color, came }) => {
                 <p className="NavLinkMobileBar" onClick={() => handleNavBarClick()} style={{display: navBar? 'none': 'block'}}>|||</p>
             </div>
 
-            <div className="navBarForMobile" style={{height: navBar? '100vh': '0vh', display: navBar? 'block': 'none'}}>
-                <p className="MobileCloseBar" onClick={() => handleNavBarClick()}>X</p>
-                <h2 className="HeadHeadForMobilebar">Raju Transports</h2>
+            <div className="navBarForMobile" style={{visibility: navBar? 'visible': 'hidden', height: navBar? '100vh': '0vh',}}>
+                <p className="MobileCloseBar" style={{visibility: navBar? 'visible': 'hidden', fontSize: navBar? 'large': '0px',}} onClick={() => handleNavBarClick()}>X</p>
+                <h2 className="HeadHeadForMobilebar" style={{visibility: navBar? 'visible': 'hidden', fontSize: navBar? 'x-large': '0px',}}>Raju Transports</h2>
                 <br />
                 <br />
                 <br />
                 <br />
                 <br />
-                <div className="navBarForMobileLinks">
+                <div className="navBarForMobileLinks" style={{visibility: navBar? 'visible': 'hidden', fontSize: navBar? 'large': '0px',}}>
                 <Link className="linkFound" to={"/services"}><p className="NavLinkMobileLink">Services</p></Link>
                 </div>
-                <div className="navBarForMobileLinks">
+                <div className="navBarForMobileLinks" style={{visibility: navBar? 'visible': 'hidden', fontSize: navBar? 'large': '0px',}}>
                     <Link className="linkFound" to={"/aboutus"}><p className="NavLinkMobileLink">About Us</p></Link>
                 </div>
-                <div className="navBarForMobileLinks">
+                <div className="navBarForMobileLinks" style={{visibility: navBar? 'visible': 'hidden', fontSize: navBar? 'large': '0px',}}>
                     <Link className="linkFound" to={"/contactus"}><p className="NavLinkMobileLink">Contact Us</p></Link>
                 </div>
             </div> 

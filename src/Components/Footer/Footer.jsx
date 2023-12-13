@@ -18,7 +18,7 @@ const Footer = ({ sub }) => {
             <div className="footer">
                 <div className="footertabs">
                     <h2 className="footertabsh2">Raju Transport</h2>
-                    <h3 className="footertabsh3">Madhavaram Chennia - 600019</h3>
+                    <h3 className="footertabsh3">Madhavaram Chennai - 600019</h3>
                 </div>
                 <div className="footeroffice">
                     <h3>Location</h3>

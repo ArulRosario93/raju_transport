@@ -10,7 +10,7 @@ const SpecialComp = () => {
                 <p className='SpecialCompSub'>Clients</p>
             </div>
             <div className='permit'>
-                <p className='SpecialCompHead'>AIR</p>
+                <p className='SpecialCompHead'>AIP</p>
                 <p className='SpecialCompSub'>All India Permit</p>
             </div>
         </div>

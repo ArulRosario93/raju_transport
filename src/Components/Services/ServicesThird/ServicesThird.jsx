@@ -1,14 +1,17 @@
 import React from "react";
 import "./ServicesThird.css";
 
-const ServicesThird = () => {
+const ServicesThird = ({ note, h1, h2, h3, p }) => {
     return(
         <div className="ServicesThird">
             <div className="ServicesThirdContent">
-                <p className="ServicesThirdContentNote">Performance</p>
-                <h1 className="ServicesThirdContentHead">Build To</h1>
-                <h1 className="ServicesThirdContentHead">Perform.</h1>
-                <p className="ServicesThirdContentP1">Ensuring the safety of transported loads and timely deliveries demands meticulous planning and adherence to best practices. Rigorous load securing procedures and a commitment to punctuality mitigate risks, safeguarding both cargo and road users. This dedication to excellence builds trust, reliability, and efficiency in the transportation network, fostering overall industry integrity.</p>
+                <p className="ServicesThirdContentNote">{note}</p>
+                <h1 className="ServicesThirdContentHead">{h1}</h1>
+                <h1 className="ServicesThirdContentHead">{h2}</h1>
+                {
+                    h3? <h1 className="ServicesThirdContentHead">{h3}</h1>: null
+                }
+                <p className="ServicesThirdContentP1">{p}</p>
             </div>
             <div className="ServicesThirdImg">
                 <img className="ServicesThirdImgImg" src="https://miro.medium.com/v2/resize:fit:800/1*mlKZv3KZF2zYW6iFCT9LkA.jpeg" alt="Services" />

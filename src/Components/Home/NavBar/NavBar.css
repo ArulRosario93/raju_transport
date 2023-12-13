@@ -38,7 +38,7 @@
 }
 
 .NavBarLogoforService{
-    transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out .0s;
     font-family: 'Bebas Neue', sans-serif;
     width: 100%;
     font-weight: bolder;
@@ -108,7 +108,7 @@
         color: rgb(0, 0, 0);
         transform: rotate(90deg);
         cursor: pointer;
-        letter-spacing: -2.5px;
+        letter-spacing: 0px;
         font-size: medium;
     }
     .ptransition{
@@ -127,6 +127,7 @@
         text-align: center;
     }
     .MobileCloseBar{
+        transition: all .1s;
         text-align: right;
         font-size: x-large;
         padding: 25px 35px;
@@ -136,14 +137,14 @@
     }
     
     .HeadHeadForMobilebar{
-        font-size: x-large;
+        transition: all .3s, .6s;
         text-align: center;
         font-family: 'Bebas Neue', sans-serif;
     }
     .navBarForMobile{
         z-index: 100;
         display: block;
-        transition: all 1s;
+        transition: all .6s;
         position: fixed;
         width: 100%;
         background: white;
@@ -151,9 +152,11 @@
     }
     .NavLinkMobileLink{ 
         color: black;
-        font-size: large;
         font-family: 'Poppins', sans-serif;
         text-align: center;
         margin-bottom: 20px;
+    }
+    .navBarForMobileLinks{
+        transition: all .3s;
     }
 }

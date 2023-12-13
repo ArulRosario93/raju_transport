@@ -23,13 +23,14 @@ const Services = ({ setcame }) => {
             </div>
             <div className="ServicesInner">
                 <div className="ServicesInnerContainerRight">
-                    <h2 className="ServicesFoundHeadR">Build To Perform.</h2>
+                    <h2 className="ServicesFoundHeadR">Southern India Logistics Hub</h2>
                     <div className="ServicesInMobileRight">
                         <div className="ServicesFoundImg">
                             <img className="ServicesFoundImgImg" src="https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?cs=srgb&dl=pexels-quintin-gellar-2199293.jpg&fm=jpg" alt="Services" />
                         </div>
                         <div className="ServicesFoundRight">
-                            <p className="ServicesFoundPara">Open Hi-tech solutions revolutionize the trucking industry with real-time tracking, autonomous vehicles, and eco-friendly innovations, optimizing logistics and enhancing safety in the fast-evolving transportation sector.</p>
+                            <p className="ServicesFoundPara">
+Explore excellence in transport with our Southern India Logistics Hub. From versatile containers to diverse fleets, we ensure secure, efficient, and timely cargo solutions in Mumbai, Tamil Nadu, Kerala, and Hyderabad.</p>
                             <Link to={"/services"} style={{textDecoration: 'none'}}><div className="ServicesFoundView">View</div></Link>
                         </div>
                     </div>

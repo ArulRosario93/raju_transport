@@ -71,10 +71,22 @@
     .ServicesThirdImgImg{
         padding: 30px;
     }
+    
+    .ServicesThirdContentHead{
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 3rem;
+        font-weight: 900;
+        height: 60px;
+        padding: 0%;
+        margin: 0%;
+    }
 }
 
 @media only screen and (max-width: 450px){
-
+    .ServicesThirdContentHead{
+        font-size: 2rem;
+        height: auto;
+    }
     .ServicesThird{
         min-height: 100vh;
     }

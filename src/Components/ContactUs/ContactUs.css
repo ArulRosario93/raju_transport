@@ -23,16 +23,16 @@
 
 .ContainItImg{
     flex: 1;
-    
     align-items: center;
 }
 
 .ContainItImgImg{
     width: 90%;
+    border-radius: 5px;
     margin: 0px auto;
     text-align: center;
     height: 500px;
-    object-fit: cover;
+    object-fit: cover;  
 }
 
 .ContactUsContainer{
@@ -83,7 +83,15 @@
     padding: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.noteforbottom{
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+    /* font-size: small; */
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
 .ContactUsContaintextArea{
     width: 100%;
     outline: none;

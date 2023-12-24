@@ -1,5 +1,6 @@
 import React from "react";
 import "./AboutUs.css"; 
+import image from "./image.png";
 
 const AboutUs = () => {
     return(
@@ -19,7 +20,7 @@ const AboutUs = () => {
                 </div>
                 <div className="AboutUsHomeImage">
                     <div className="AboutUsHomeImageMain">
-                        <img className="AboutUsHomeImageMainImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Sundar_Pichai_%282023%29_cropped.jpg/1200px-Sundar_Pichai_%282023%29_cropped.jpg" alt="personalLogo"/>
+                        <img className="AboutUsHomeImageMainImg" src={image} alt="personalLogo"/>
                         <div className="AboutUsHomeImageMainPerosonalref">
                             <h3 className="AboutUsHomeImageMainPerosonalrefHeadaing">Raju Peter</h3>
                             <p className="AboutUsHomeImageMainPerosonalrefPara">Proprietor</p>

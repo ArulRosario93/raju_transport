@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import "./ContactUs.css";
 import Footer from '../Footer/Footer';
 import NavBar from '../Home/NavBar/NavBar';
+import image from "./image.webp"
 
 const ContactUs = () => {
 
@@ -14,8 +15,8 @@ const ContactUs = () => {
             <NavBar />
             <div className='MainContainer'>
                 <div className='ContainItImg'>
-                    <img className='ContainItImgImg' src='https://thumbs.dreamstime.com/b/american-style-truck-freeway-pulling-load-transportation-theme-road-cars-174771780.jpg' alt='ContainIt'/>
-                    <p>We would love to get in touch</p>
+                    <img className='ContainItImgImg' src={image} alt='ContainIt'/>
+                    <p className='noteforbottom'>We would love to get in touch</p>
                 </div>
                 <div className="divider"></div>
                 <div className='ContainIt'>

@@ -35,6 +35,10 @@
     font-size: 2.2rem;
 }
 
+.MapLocation{
+    border-radius: 10px;
+}
+
 .footertabsh2{
     color: white;
     font-size: 3rem;
@@ -45,6 +49,11 @@
 .footertabsh3{
     font-size: medium;
     font-weight: 400;
+}
+.footerofficeHead{
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: medium;
 }
 .contact{
     text-decoration: underline;

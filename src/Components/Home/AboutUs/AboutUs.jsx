@@ -13,10 +13,9 @@ const AboutUs = () => {
             <div className="AboutUsHomeContentShownRow">  
                 <div className="AboutUsHomeContentShown">
                     <p className="AboutUsHomeContentPara">
-                        SMR is a global company with a high level of innovation. Originally coming from the pure mirror business, today SMR is specialist in rear view mirror systems as well as pioneer in intelligent camera systems for automotive applications. Our goal is to actively help forming the future of the automotive industry – with innovative technologies that make driving more comfortable and safer.
-                    </p>
+                    Raju Transport, with over 35 years of experience, is a prominent transportation company based in Tamil Nadu, India. Boasting a robust network of contacts, the company specializes in the efficient delivery of various loads, goods, and sands to desired locations within Tamil Nadu and across India. With a wealth of experience in the industry, Raju Transport has established itself as a reliable and trusted partner in the logistics sector, ensuring timely and secure transportation services for its clientele.</p>
                     <br />
-                    <p className="AboutUsHomeContentPara">As part of the Motherson Group, we are optimally networked for reacting quickly to customer requirements and making use of synergy effects. For example, we work closely with our sister companies SMP, MSSL, SMIA, SMRC, PKC and Motherson Innovations. SMR offers a creative working environment, in which everyone can participate actively and develop in line with his or her individual abilities and preferences.</p>
+                    <p className="AboutUsHomeContentPara">With over 35 years of experience, Raju Transport is a trusted transportation company in Tamil Nadu, India. Known for its extensive network, the company specializes in timely and secure delivery of various loads, goods, and sands across Tamil Nadu and India. Committed to customer satisfaction, Raju Transport prioritizes quality, safety, and innovation, utilizing a well-maintained fleet and a skilled team. As a reliable partner in logistics, the company continues to evolve, ensuring it remains a leader in providing efficient transportation solutions for diverse needs.</p>
                 </div>
                 <div className="AboutUsHomeImage">
                     <div className="AboutUsHomeImageMain">

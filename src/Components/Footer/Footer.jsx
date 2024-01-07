@@ -35,8 +35,8 @@ const Footer = ({ sub }) => {
                 </div>
                 <div className="">
                     <h2 className="contact">Contact Us</h2>
-                    <h3 className="contacth2">Email: iaehgpin@gmail.com</h3>
-                    <h3 className="contacth2">Phone No: 9233650235</h3>
+                    <h3 className="contacth2">Email: rajutransports@gmail.com</h3>
+                    <h3 className="contacth2">Phone No: 9551998222</h3>
                 </div>
             </div>
         </>

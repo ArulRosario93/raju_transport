@@ -10,7 +10,8 @@ const SecondAboutUs = () => {
                     <h2 className="SecondAboutUsFlexContentHead">DEDICATED AND</h2>
                     <h2 className="SecondAboutUsFlexContentHead">DRIVEN TO DELIVER</h2>
                     <br />
-                    <p className="SecondAboutUsFlexContentPara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque quos quaerat facilis amet iusto eos numquam magni dicta dolorum ullam perspiciatis voluptates dignissimos cumque atque illo vitae, deserunt libero nulla nisi similique? Alias, iusto neque eum sit labore quas!</p>
+                    <p className="SecondAboutUsFlexContentPara">
+                    DEDICATED AND DRIVEN TO DELIVER excellence, Raju Transport is your trusted transport partner. Our fleet, manned by skilled professionals, ensures timely deliveries across all states in India. With a focus on precision and reliability, we guarantee your goods reach their destination seamlessly. Choose Raju Transport for unparalleled transportation solutions that go the extra mile.</p>
                 </div>
                 <div className="SecondAboutUsFlexMap">
                     <img className="SecondAboutUsFlexMapImg" alt="mapOfIndia" src={map}/>

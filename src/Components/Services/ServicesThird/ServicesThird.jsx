@@ -1,7 +1,7 @@
 import React from "react";
 import "./ServicesThird.css";
 
-const ServicesThird = ({ note, h1, h2, h3, p }) => {
+const ServicesThird = ({ note, h1, h2, h3, p, image }) => {
     return(
         <div className="ServicesThird">
             <div className="ServicesThirdContent">
@@ -14,7 +14,7 @@ const ServicesThird = ({ note, h1, h2, h3, p }) => {
                 <p className="ServicesThirdContentP1">{p}</p>
             </div>
             <div className="ServicesThirdImg">
-                <img className="ServicesThirdImgImg" src="https://miro.medium.com/v2/resize:fit:800/1*mlKZv3KZF2zYW6iFCT9LkA.jpeg" alt="Services" />
+                <img className="ServicesThirdImgImg" src={image} alt="Services" />
             </div>
         </div>
     );

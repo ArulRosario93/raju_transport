@@ -9,14 +9,14 @@ const Services = ({ setcame }) => {
             <h2 className="ServicesHead">Services Provided</h2>
             <div className="ServicesInner">
                 <div className="ServicesInnerContainer">
-                    <h2 className="ServicesFoundHead">THE RIGHT THINGS. THE RIGHT WAY.</h2>
+                    <h2 className="ServicesFoundHead">Diverse Fleet for Every Cargo.</h2>
                     <div className="ServicesInMobile">
                         <div className="ServicesFound">
                             <p className="ServicesFoundPara">Open Hi-tech solutions revolutionize the trucking industry with real-time tracking, autonomous vehicles, and eco-friendly innovations, optimizing logistics and enhancing safety in the fast-evolving transportation sector.</p>
                             <Link to={"/services"} style={{textDecoration: 'none'}}><div className="ServicesFoundView">View</div></Link>
                         </div>
                         <div className="ServicesFoundImg">
-                            <img className="ServicesFoundImgImg" src="https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?cs=srgb&dl=pexels-quintin-gellar-2199293.jpg&fm=jpg" alt="Services" />
+                            <img className="ServicesFoundImgImg" src="https://5.imimg.com/data5/SELLER/Default/2020/11/XK/HK/KV/95993349/goods-transportation-services.jpg" alt="Services" />
                         </div>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ const Services = ({ setcame }) => {
                     <h2 className="ServicesFoundHeadR">Southern India Logistics Hub</h2>
                     <div className="ServicesInMobileRight">
                         <div className="ServicesFoundImg">
-                            <img className="ServicesFoundImgImg" src="https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?cs=srgb&dl=pexels-quintin-gellar-2199293.jpg&fm=jpg" alt="Services" />
+                            <img className="ServicesFoundImgImg" src="https://etimg.etb2bimg.com/photo/94749241.cms" alt="Services" />
                         </div>
                         <div className="ServicesFoundRight">
                             <p className="ServicesFoundPara">
